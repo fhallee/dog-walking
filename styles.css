@@ -1,0 +1,63 @@
+/* https://coolors.co/palette/ff6b35-f7c59f-efefd0-004e89-1a659e */
+
+body {
+    background-color: #EFEFD0;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.navbar.navbar-expand-lg.bg-light {
+    background-color: #F7C59F !important;
+    color: black;
+}
+
+h1 {
+    margin: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    margin: 20px;
+    text-decoration: underline;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+p {
+    margin: 20px;
+}
+
+footer {
+    background-color: #F7C59F;
+    padding: 20px;
+}
+
+.booking {
+    padding: 20px;
+    background-color: #1A659E;
+    color: white;
+}
+
+.booking p {
+    margin: 0px;
+}
+
+.booking a {
+    color: #82B4DB;
+}
+
+.collapsible {
+    background-color: #1A659E;
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+
