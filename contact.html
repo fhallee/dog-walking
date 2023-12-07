@@ -8,6 +8,17 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
         <link href="styles.css" rel="stylesheet">
         <title>Contact - Forest's Dog Walking</title>
+  <script>
+        /* 1. define variables */
+        var me = "fhallee1";
+        var place = "gmail.com";
+
+        /* 2. find email link to replace */
+        var elink = document.getElementById("mlink");
+
+        /* 3. replace link href with variables  */
+        elink.href = `mailto:${me}@${place}`;
+    </script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-light">
@@ -37,9 +48,9 @@
         <h1>
             Contact
         </h1>
-        <p>Please contact us via email with your requested service along with the date and time: <a href="mailto:fhallee1@gmail.com">Send an Email</a></p>
-    <footer>
+        <p>Please contact us via email with your requested service along with the date and time: <a id="mlink" href="#">Send an Email</a></p>
+        <footer>
         &copy; Forest Hallee 2023
-    </footer>
+        </footer>
   </body>
 </html>
